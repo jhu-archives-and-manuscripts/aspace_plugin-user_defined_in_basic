@@ -1,5 +1,5 @@
 # user_defined_in_basic
-An ArchivesSpace plugin that displays selected user defined fields in the basic information section
+An ArchivesSpace plugin that displays selected user defined fields in the basic information section.  `/frontend/views/user_defined/_template.html.erb` has also been set to reorder existing UDFs in the UDF section according to JHU needs.
 
 
 ## How to install it
@@ -20,6 +20,10 @@ ArchivesSpace plugins directory.  For example:
 Or if you are after a particular release, download and unzip it from here:
 
 https://github.com/hudmol/user_defined_in_basic/releases
+
+** Note on using alongside `jhu_suppress` **
+
+If using alongside the `jhu_suppress` plugin, fields suppressed via that plugin should be removed from the `/frontend/views/user_defined/_template.html.erb` included here.
 
 
 ## How to configure it
